@@ -243,7 +243,7 @@ h2.bnr-sub-title {
 }
 
 .btn-more, .btn-more:focus {
-  margin-left: 15px;
+  margin-left: 0px;
   border: 1px solid #be9e21;
   color: #be9e21;
 }
