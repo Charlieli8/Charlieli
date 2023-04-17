@@ -118,13 +118,13 @@ HEADER
 .header {
   background: url('../img/bg-banner02.jpg') no-repeat fixed;
   background-size: cover;
-  min-height: 500px;
+  min-height: 100px;
   position: relative;
 }
 
 .bg-color {
   background-color: rgba(0, 0, 0, 0.5);
-  min-height: 500px;
+  min-height: 100px;
 }
 
 #main-header {}
@@ -137,10 +137,10 @@ HEADER
 }
 
 @media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(64, 75, 97, 0.9);
+  .navbar-collapse {
+    background: rgba(64, 75, 97, 0.9);
     border-top: 0;
-	}
+  }
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: #002F2F;
@@ -228,23 +228,22 @@ h2.bnr-sub-title {
   border: 0;
   font-size: 14px;
   font-weight: 300;
-  line-height: 23px;
-  padding: 10px 25px;
+  line-height: 24px;
+  padding: 10px 30px;
   border-radius: 60px;
-  margin: 30px 10px 0 0;
+  margin: 50px 10px 0 0;
   outline: none !important;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: all 0.3s;
 }
 
-
 .btn-download {
   background-color: #be9e21;
 }
 
 .btn-more, .btn-more:focus {
-  margin-left: 0px;
+  margin-left: 15px;
   border: 1px solid #be9e21;
   color: #be9e21;
 }
@@ -293,7 +292,7 @@ features
 }
 
 .wrap-item h3 {
-  font-size: 24px;
+  font-size: 25px;
   line-height: 25px;
 }
 
@@ -367,7 +366,7 @@ ul.service-list li i {
 
 .service-item h3 span {
   opacity: 0.7;
-  font-size: 50px;
+  font-size: 75px;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: -5px;
