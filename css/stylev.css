@@ -369,7 +369,7 @@ ul.service-list li i {
   font-size: 75px;
   line-height: 1;
   text-transform: uppercase;
-  letter-spacing: -5px;
+  letter-spacing: 0px;
   font-weight: 900;
   padding-right: 6px;
 }
