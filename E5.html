@@ -77,20 +77,41 @@
             <hr class="bottom-line">
           </div>
           <div class="col-md-12 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <h1 class="pad-bt15"><strong><u>Objectif</u></strong></h1></div>
-            <div class="wrap-item text-left"><p style="font-size: 18px;">L'épreuve E5 est composée de deux projets ayant un contexte commun en rapport avec l'option choisie (SISR ou SLAM).<br>
-              L'objectif est de mettre en place une ou des solutions informatiques visant à faire évoluer une infrastructure conformément au contexte présenté.
-            </div> <br> <br>
+            
+         <h3 class="pad-bt15" style="font-size: 30px"><center><strong><u>Qu'est-ce que l'épreuve E5 ? </u></strong></center></h3><br>
+
+          <p class="sub-title pad-bt15">Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences décrites dans le bloc de compétences <strong>« Administration des systèmes et des réseaux »</strong> propre à l’option <strong>« Solutions d’infrastructure, systèmes et réseaux »</strong>, à savoir :</p>
+          <br>
+
+          
+          <li>Concevoir une solution d’infrastructure réseau ;</li> <br> 
+          <li>Installer, tester et déployer une solution d’infrastructure réseau ;</li> <br> 
+          <li>Exploiter, dépanner et superviser une infrastructure réseau.</li> <br> <br>
+         
+
+          <p class="sub-title pad-bt15"> Cette épreuve est aussi accompagnée d'un tableau des compétences, compétences qui devront être décrites et réalisées au cours des projets présentés.</p>
+         <br> <br>
             
           
               <h1><center><strong><u>Projet 1</u></strong></center></h1>
-              <h3 class="pad-bt15"><center><span style="font-size: 25px;">Mise en place d’un contrôleur de domaine sous <br> </span> <span style="color: #007FFF">Windows Server 2022</span></center></h3>
-              <p style="text-align: left; margin-left: 10% ; margin-right: 10%; font-size: 20px;">
-                <strong>-</strong> Mise en place du contrôleur de domaine incluant le  <br> <br>
+              <h2 class="pad-bt15"><center><span style="font-size: 25px;">Mise en place d’un contrôleur de domaine sous <br> </span> <span style="color: #007FFF">Windows Server 2022</span></center></h2>
+<h2 class="pad-bt15"><center><span style="font-size: 25px; color: black;">Création et intégration d'un nouveau groupe d'utilisateur dans l'Active Directory</h2><br>
 
-             
-              </p>
+
+<p class="sub-title pad-bt15"><strong>L’Active Directory est un annuaire LDAP (Lightweight Directory Access Protocol)</strong> pour les systèmes d’exploitation Windows. <br>
+
+Cet annuaire contient différents objets, de différents types (utilisateurs, ordinateurs, etc.) <br>
+
+L’objectif étant de centraliser deux fonctionnalités essentielles : l’identification et l’authentification au sein système d’information. <br>
+
+
+Les intérêts d’un annuaire sont: </p>
+
+
+<li>Administration centralisée et simplifiée</li> <br>
+<li>Unifier l’authentification</li> <br>
+<li>Identifier les objets sur le réseau</li> <br>
+<li>Référencer les utilisateurs et ordinateurs</li> <br>
 
               <p style="text-align: left; margin-left: 10% ; margin-right: 10%; font-size: 19.5px;">
               <a href="RéalisationAD.pdf" target="_blank">Situation professionnelle</a><br>
@@ -102,13 +123,24 @@
           
             
               <h1><center><strong><u>Projet 2</u></strong></center></h1>
-              <h3 class="pad-bt15"><center><span style="font-size: 25px; color: darkblue;">Haute disponibilité</span> <span style="color: red;"> sur matériel Cisco</span></center></h3>
-              <p style="text-align: left; margin-left: 10% ; margin-right: 10%; font-size: 20px;">
+              <h2 class="pad-bt15"><center><span style="font-size: 25px; color: darkblue;">Haute disponibilité</span> <span style="color: red;"> sur matériel Cisco</span></center></h2>
+            <h2 class="pad-bt15"><center><span style="font-size: 25px; color: black;">Mise en place d’une solution de redondance, de tolérance de panne et d’équilibrage de charge pour les éléments d’interconnexion (HSRP)</span></center></h2> <br>
 
-                <strong>-</strong> Mise en place d’une infrastructure réseau paramétrée avec 6 VLAN et routage inter-vlan.   <br> 
-                <strong>-</strong> Déploiement des protocoles VTP, RSTP, HSRP pour apporter une redondance et une continuité de service en cas de panne. <br> 
-                <strong>-</strong> Déploiement du protocole RIPv2 et DHCP <br><br>
-              </p>
+<p class="sub-title pad-bt15"><strong>HSRP (Hot Standby Router Protocol)</strong> est un protocole utilisé dans les réseaux informatiques pour fournir une redondance de passerelle par défaut. <br>
+Il permet à plusieurs routeurs de travailler ensemble de manière à assurer une continuité de service en cas de défaillance d'un routeur principal. <br>
+Les principales caractéristiques de ce projet sont :</p>
+
+
+<li>Redondance de passerelle par défaut : HSRP permet de configurer un routeur actif et un ou plusieurs routeurs de secours qui se tiennent prêts à prendre le relais en cas de panne. Cela garantit une disponibilité élevée du réseau et une continuité des opérations en cas de défaillance matérielle.</li> <br>
+
+<li>Tolérance de panne : En cas de défaillance d'un routeur principal, HSRP assure une transition transparente vers un routeur de secours, minimisant ainsi les interruptions de service et les temps d'arrêt. Cela garantit la fiabilité du réseau et maintient la productivité des utilisateurs.</li> <br>
+
+<li>Équilibrage de charge : Outre la redondance, HSRP permet également de répartir la charge entre plusieurs routeurs actifs, assurant ainsi une utilisation efficace des ressources réseau. Cela permet de prévenir la congestion du trafic et d'optimiser les performances du réseau.</li> <br>
+
+
+
+<p class="sub-title pad-bt15">En mettant en place une solution HSRP, l'infrastructure réseau bénéficie d'une meilleure disponibilité, d'une résilience accrue aux pannes et d'une utilisation plus efficace des ressources, contribuant ainsi à une expérience utilisateur optimale et à une productivité accrue.
+informatiques.</p>
                 
               <p style="text-align: left; margin-left: 10% ; margin-right: 10% ; font-size: 19.5px;">
               <a href="RéalisationHSRP.pdf" target="_blank">Situation professionnelle</a><br>
